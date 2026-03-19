@@ -1,0 +1,302 @@
+/*     */ package SCPCraft.models;
+/*     */ 
+/*     */ import axa;
+/*     */ import ayf;
+/*     */ import ke;
+/*     */ import lq;
+/*     */ 
+/*     */ 
+/*     */ public class SCPModel217Spider
+/*     */   extends axa
+/*     */ {
+/*     */   ayf Head;
+/*     */   ayf Body;
+/*     */   ayf RearEnd;
+/*     */   ayf Leg8;
+/*     */   ayf Leg6;
+/*     */   ayf Leg4;
+/*     */   ayf Leg2;
+/*     */   ayf Leg7;
+/*     */   ayf Leg5;
+/*     */   ayf Leg3;
+/*     */   ayf Leg1;
+/*     */   ayf Side1;
+/*     */   ayf Side2;
+/*     */   ayf Side3;
+/*     */   ayf Side4;
+/*     */   ayf RimMain;
+/*     */   ayf RimSide1;
+/*     */   ayf RimSide2;
+/*     */   ayf RimSide3;
+/*     */   ayf RimSide4;
+/*     */   ayf RimTop;
+/*     */   ayf Stick;
+/*     */   ayf Stick2;
+/*     */   ayf Rim2Main;
+/*     */   ayf Rim2Side1;
+/*     */   ayf Rim2Side2;
+/*     */   ayf Pipe1;
+/*     */   
+/*     */   public SCPModel217Spider() {
+/*  41 */     this.t = 64;
+/*  42 */     this.u = 64;
+/*     */     
+/*  44 */     this.Head = new ayf(this, 32, 4);
+/*  45 */     this.Head.a(-4.0F, -4.0F, -8.0F, 8, 8, 8);
+/*  46 */     this.Head.a(0.0F, 20.0F, -3.0F);
+/*  47 */     this.Head.b(64, 64);
+/*  48 */     this.Head.i = true;
+/*  49 */     setRotation(this.Head, 0.0F, 0.0F, 0.0F);
+/*  50 */     this.Body = new ayf(this, 0, 0);
+/*  51 */     this.Body.a(-3.0F, -3.0F, -3.0F, 6, 6, 6);
+/*  52 */     this.Body.a(0.0F, 20.0F, 0.0F);
+/*  53 */     this.Body.b(64, 64);
+/*  54 */     this.Body.i = true;
+/*  55 */     setRotation(this.Body, 0.0F, 0.0F, 0.0F);
+/*  56 */     this.RearEnd = new ayf(this, 0, 12);
+/*  57 */     this.RearEnd.a(-5.0F, -3.0F, -6.0F, 10, 7, 12);
+/*  58 */     this.RearEnd.a(0.0F, 20.0F, 9.0F);
+/*  59 */     this.RearEnd.b(64, 64);
+/*  60 */     this.RearEnd.i = true;
+/*  61 */     setRotation(this.RearEnd, 0.0F, 0.0F, 0.0F);
+/*  62 */     this.Leg8 = new ayf(this, 18, 0);
+/*  63 */     this.Leg8.a(-1.0F, -1.0F, -1.0F, 16, 2, 2);
+/*  64 */     this.Leg8.a(4.0F, 20.0F, -1.0F);
+/*  65 */     this.Leg8.b(64, 64);
+/*  66 */     this.Leg8.i = true;
+/*  67 */     setRotation(this.Leg8, 0.0F, 0.5759587F, 0.1919862F);
+/*  68 */     this.Leg6 = new ayf(this, 18, 0);
+/*  69 */     this.Leg6.a(-1.0F, -1.0F, -1.0F, 16, 2, 2);
+/*  70 */     this.Leg6.a(4.0F, 20.0F, 0.0F);
+/*  71 */     this.Leg6.b(64, 64);
+/*  72 */     this.Leg6.i = true;
+/*  73 */     setRotation(this.Leg6, 0.0F, 0.2792527F, 0.1919862F);
+/*  74 */     this.Leg4 = new ayf(this, 18, 0);
+/*  75 */     this.Leg4.a(-1.0F, -1.0F, -1.0F, 16, 2, 2);
+/*  76 */     this.Leg4.a(4.0F, 20.0F, 1.0F);
+/*  77 */     this.Leg4.b(64, 64);
+/*  78 */     this.Leg4.i = true;
+/*  79 */     setRotation(this.Leg4, 0.0F, -0.2792527F, 0.1919862F);
+/*  80 */     this.Leg2 = new ayf(this, 18, 0);
+/*  81 */     this.Leg2.a(-1.0F, -1.0F, -1.0F, 16, 2, 2);
+/*  82 */     this.Leg2.a(4.0F, 20.0F, 2.0F);
+/*  83 */     this.Leg2.b(64, 64);
+/*  84 */     this.Leg2.i = true;
+/*  85 */     setRotation(this.Leg2, 0.0F, -0.5759587F, 0.1919862F);
+/*  86 */     this.Leg7 = new ayf(this, 18, 0);
+/*  87 */     this.Leg7.a(-15.0F, -1.0F, -1.0F, 16, 2, 2);
+/*  88 */     this.Leg7.a(-4.0F, 20.0F, -1.0F);
+/*  89 */     this.Leg7.b(64, 64);
+/*  90 */     this.Leg7.i = true;
+/*  91 */     setRotation(this.Leg7, 0.0F, -0.5759587F, -0.1919862F);
+/*  92 */     this.Leg5 = new ayf(this, 18, 0);
+/*  93 */     this.Leg5.a(-15.0F, -1.0F, -1.0F, 16, 2, 2);
+/*  94 */     this.Leg5.a(-4.0F, 20.0F, 0.0F);
+/*  95 */     this.Leg5.b(64, 64);
+/*  96 */     this.Leg5.i = true;
+/*  97 */     setRotation(this.Leg5, 0.0F, -0.2792527F, -0.1919862F);
+/*  98 */     this.Leg3 = new ayf(this, 18, 0);
+/*  99 */     this.Leg3.a(-15.0F, -1.0F, -1.0F, 16, 2, 2);
+/* 100 */     this.Leg3.a(-4.0F, 20.0F, 1.0F);
+/* 101 */     this.Leg3.b(64, 64);
+/* 102 */     this.Leg3.i = true;
+/* 103 */     setRotation(this.Leg3, 0.0F, 0.2792527F, -0.1919862F);
+/* 104 */     this.Leg1 = new ayf(this, 18, 0);
+/* 105 */     this.Leg1.a(-15.0F, -1.0F, -1.0F, 16, 2, 2);
+/* 106 */     this.Leg1.a(-4.0F, 20.0F, 2.0F);
+/* 107 */     this.Leg1.b(64, 64);
+/* 108 */     this.Leg1.i = true;
+/* 109 */     setRotation(this.Leg1, 0.0F, 0.5759587F, -0.1919862F);
+/* 110 */     this.Side1 = new ayf(this, 37, 32);
+/* 111 */     this.Side1.a(-5.0F, -4.0F, -6.0F, 1, 1, 12);
+/* 112 */     this.Side1.a(0.0F, 20.0F, 9.0F);
+/* 113 */     this.Side1.b(64, 64);
+/* 114 */     this.Side1.i = true;
+/* 115 */     setRotation(this.Side1, 0.0F, 0.0F, 0.0F);
+/* 116 */     this.Side2 = new ayf(this, 37, 32);
+/* 117 */     this.Side2.a(4.0F, -4.0F, -6.0F, 1, 1, 12);
+/* 118 */     this.Side2.a(0.0F, 20.0F, 9.0F);
+/* 119 */     this.Side2.b(64, 64);
+/* 120 */     this.Side2.i = true;
+/* 121 */     setRotation(this.Side2, 0.0F, 0.0F, 0.0F);
+/* 122 */     this.Side3 = new ayf(this, 45, 21);
+/* 123 */     this.Side3.a(-4.0F, -4.0F, -6.0F, 8, 1, 1);
+/* 124 */     this.Side3.a(0.0F, 20.0F, 9.0F);
+/* 125 */     this.Side3.b(64, 64);
+/* 126 */     this.Side3.i = true;
+/* 127 */     setRotation(this.Side3, 0.0F, 0.0F, 0.0F);
+/* 128 */     this.Side4 = new ayf(this, 45, 21);
+/* 129 */     this.Side4.a(-4.0F, -4.0F, 5.0F, 8, 1, 1);
+/* 130 */     this.Side4.a(0.0F, 20.0F, 9.0F);
+/* 131 */     this.Side4.b(64, 64);
+/* 132 */     this.Side4.i = true;
+/* 133 */     setRotation(this.Side4, 0.0F, 0.0F, 0.0F);
+/* 134 */     this.RimMain = new ayf(this, 1, 58);
+/* 135 */     this.RimMain.a(-4.0F, -5.0F, -2.0F, 8, 1, 4);
+/* 136 */     this.RimMain.a(0.0F, 20.0F, 9.0F);
+/* 137 */     this.RimMain.b(64, 64);
+/* 138 */     this.RimMain.i = true;
+/* 139 */     setRotation(this.RimMain, 0.0F, 0.0F, 0.0F);
+/* 140 */     this.RimSide1 = new ayf(this, 1, 47);
+/* 141 */     this.RimSide1.a(-3.0F, -5.0F, -4.0F, 6, 1, 2);
+/* 142 */     this.RimSide1.a(0.0F, 20.0F, 9.0F);
+/* 143 */     this.RimSide1.b(64, 64);
+/* 144 */     this.RimSide1.i = true;
+/* 145 */     setRotation(this.RimSide1, 0.0F, 0.0F, 0.0F);
+/* 146 */     this.RimSide2 = new ayf(this, 1, 54);
+/* 147 */     this.RimSide2.a(-3.0F, -5.0F, 2.0F, 6, 1, 2);
+/* 148 */     this.RimSide2.a(0.0F, 20.0F, 9.0F);
+/* 149 */     this.RimSide2.b(64, 64);
+/* 150 */     this.RimSide2.i = true;
+/* 151 */     setRotation(this.RimSide2, 0.0F, 0.0F, 0.0F);
+/* 152 */     this.RimSide3 = new ayf(this, 1, 44);
+/* 153 */     this.RimSide3.a(-2.0F, -5.0F, -5.0F, 4, 1, 1);
+/* 154 */     this.RimSide3.a(0.0F, 20.0F, 9.0F);
+/* 155 */     this.RimSide3.b(64, 64);
+/* 156 */     this.RimSide3.i = true;
+/* 157 */     setRotation(this.RimSide3, 0.0F, 0.0F, 0.0F);
+/* 158 */     this.RimSide4 = new ayf(this, 1, 51);
+/* 159 */     this.RimSide4.a(-2.0F, -5.0F, 4.0F, 4, 1, 1);
+/* 160 */     this.RimSide4.a(0.0F, 20.0F, 9.0F);
+/* 161 */     this.RimSide4.b(64, 64);
+/* 162 */     this.RimSide4.i = true;
+/* 163 */     setRotation(this.RimSide4, 0.0F, 0.0F, 0.0F);
+/* 164 */     this.RimTop = new ayf(this, 1, 38);
+/* 165 */     this.RimTop.a(-1.0F, -8.0F, -1.0F, 2, 3, 2);
+/* 166 */     this.RimTop.a(0.0F, 20.0F, 9.0F);
+/* 167 */     this.RimTop.b(64, 64);
+/* 168 */     this.RimTop.i = true;
+/* 169 */     setRotation(this.RimTop, 0.0F, 0.0F, 0.0F);
+/* 170 */     this.Stick = new ayf(this, 10, 40);
+/* 171 */     this.Stick.a(-2.0F, -7.0F, -2.0F, 4, 1, 2);
+/* 172 */     this.Stick.a(0.0F, 20.0F, 9.0F);
+/* 173 */     this.Stick.b(64, 64);
+/* 174 */     this.Stick.i = true;
+/* 175 */     setRotation(this.Stick, 0.0F, 0.0F, 0.0F);
+/* 176 */     this.Stick2 = new ayf(this, 10, 33);
+/* 177 */     this.Stick2.a(-1.0F, -7.0F, -6.0F, 2, 1, 5);
+/* 178 */     this.Stick2.a(0.0F, 20.0F, 9.0F);
+/* 179 */     this.Stick2.b(64, 64);
+/* 180 */     this.Stick2.i = true;
+/* 181 */     setRotation(this.Stick2, 0.1396263F, 0.0F, 0.0F);
+/* 182 */     this.Rim2Main = new ayf(this, 21, 53);
+/* 183 */     this.Rim2Main.a(-2.0F, -6.0F, -11.0F, 4, 1, 3);
+/* 184 */     this.Rim2Main.a(0.0F, 20.0F, 9.0F);
+/* 185 */     this.Rim2Main.b(64, 64);
+/* 186 */     this.Rim2Main.i = true;
+/* 187 */     setRotation(this.Rim2Main, 0.0F, 0.0F, 0.0F);
+/* 188 */     this.Rim2Side1 = new ayf(this, 30, 43);
+/* 189 */     this.Rim2Side1.a(-1.0F, -6.0F, -12.0F, 2, 1, 1);
+/* 190 */     this.Rim2Side1.a(0.0F, 20.0F, 9.0F);
+/* 191 */     this.Rim2Side1.b(64, 64);
+/* 192 */     this.Rim2Side1.i = true;
+/* 193 */     setRotation(this.Rim2Side1, 0.0F, 0.0F, 0.0F);
+/* 194 */     this.Rim2Side2 = new ayf(this, 30, 43);
+/* 195 */     this.Rim2Side2.a(-1.0F, -6.0F, -8.0F, 2, 1, 1);
+/* 196 */     this.Rim2Side2.a(0.0F, 20.0F, 9.0F);
+/* 197 */     this.Rim2Side2.b(64, 64);
+/* 198 */     this.Rim2Side2.i = true;
+/* 199 */     setRotation(this.Rim2Side2, 0.0F, 0.0F, 0.0F);
+/* 200 */     this.Pipe1 = new ayf(this, 30, 48);
+/* 201 */     this.Pipe1.a(-1.0F, -5.0F, -1.0F, 2, 2, 1);
+/* 202 */     this.Pipe1.a(0.0F, 20.0F, 0.0F);
+/* 203 */     this.Pipe1.b(64, 64);
+/* 204 */     this.Pipe1.i = true;
+/* 205 */     setRotation(this.Pipe1, 0.0F, 0.0F, 0.0F);
+/*     */   }
+/*     */ 
+/*     */   
+/*     */   public void a(lq entity, float f, float f1, float f2, float f3, float f4, float f5) {
+/* 210 */     super.a(entity, f, f1, f2, f3, f4, f5);
+/* 211 */     setRotationAngles(f, f1, f2, f3, f4, f5);
+/* 212 */     this.Head.a(f5);
+/* 213 */     this.Body.a(f5);
+/* 214 */     this.RearEnd.a(f5);
+/* 215 */     this.Leg8.a(f5);
+/* 216 */     this.Leg6.a(f5);
+/* 217 */     this.Leg4.a(f5);
+/* 218 */     this.Leg2.a(f5);
+/* 219 */     this.Leg7.a(f5);
+/* 220 */     this.Leg5.a(f5);
+/* 221 */     this.Leg3.a(f5);
+/* 222 */     this.Leg1.a(f5);
+/* 223 */     this.Side1.a(f5);
+/* 224 */     this.Side2.a(f5);
+/* 225 */     this.Side3.a(f5);
+/* 226 */     this.Side4.a(f5);
+/* 227 */     this.RimMain.a(f5);
+/* 228 */     this.RimSide1.a(f5);
+/* 229 */     this.RimSide2.a(f5);
+/* 230 */     this.RimSide3.a(f5);
+/* 231 */     this.RimSide4.a(f5);
+/* 232 */     this.RimTop.a(f5);
+/* 233 */     this.Stick.a(f5);
+/* 234 */     this.Stick2.a(f5);
+/* 235 */     this.Rim2Main.a(f5);
+/* 236 */     this.Rim2Side1.a(f5);
+/* 237 */     this.Rim2Side2.a(f5);
+/* 238 */     this.Pipe1.a(f5);
+/*     */   }
+/*     */ 
+/*     */   
+/*     */   private void setRotation(ayf model, float x, float y, float z) {
+/* 243 */     model.f = x;
+/* 244 */     model.g = y;
+/* 245 */     model.h = z;
+/*     */   }
+/*     */ 
+/*     */   
+/*     */   public void setRotationAngles(float par1, float par2, float par3, float par4, float par5, float par6) {
+/* 250 */     this.Head.g = par4 / 57.295776F;
+/* 251 */     this.Head.f = par5 / 57.295776F;
+/* 252 */     float f = 0.7853982F;
+/* 253 */     this.Leg1.h = -f;
+/* 254 */     this.Leg2.h = f;
+/* 255 */     this.Leg3.h = -f * 0.74F;
+/* 256 */     this.Leg4.h = f * 0.74F;
+/* 257 */     this.Leg5.h = -f * 0.74F;
+/* 258 */     this.Leg6.h = f * 0.74F;
+/* 259 */     this.Leg7.h = -f;
+/* 260 */     this.Leg8.h = f;
+/* 261 */     float f1 = -0.0F;
+/* 262 */     float f2 = 0.3926991F;
+/* 263 */     this.Leg1.g = f2 * 2.0F + f1;
+/* 264 */     this.Leg2.g = -f2 * 2.0F - f1;
+/* 265 */     this.Leg3.g = f2 * 1.0F + f1;
+/* 266 */     this.Leg4.g = -f2 * 1.0F - f1;
+/* 267 */     this.Leg5.g = -f2 * 1.0F + f1;
+/* 268 */     this.Leg6.g = f2 * 1.0F - f1;
+/* 269 */     this.Leg7.g = -f2 * 2.0F + f1;
+/* 270 */     this.Leg8.g = f2 * 2.0F - f1;
+/* 271 */     float f3 = -(ke.b(par1 * 0.6662F * 2.0F + 0.0F) * 0.4F) * par2;
+/* 272 */     float f4 = -(ke.b(par1 * 0.6662F * 2.0F + 3.1415927F) * 0.4F) * par2;
+/* 273 */     float f5 = -(ke.b(par1 * 0.6662F * 2.0F + 1.5707964F) * 0.4F) * par2;
+/* 274 */     float f6 = -(ke.b(par1 * 0.6662F * 2.0F + 4.712389F) * 0.4F) * par2;
+/* 275 */     float f7 = Math.abs(ke.a(par1 * 0.6662F + 0.0F) * 0.4F) * par2;
+/* 276 */     float f8 = Math.abs(ke.a(par1 * 0.6662F + 3.1415927F) * 0.4F) * par2;
+/* 277 */     float f9 = Math.abs(ke.a(par1 * 0.6662F + 1.5707964F) * 0.4F) * par2;
+/* 278 */     float f10 = Math.abs(ke.a(par1 * 0.6662F + 4.712389F) * 0.4F) * par2;
+/* 279 */     this.Leg1.g += f3;
+/* 280 */     this.Leg2.g += -f3;
+/* 281 */     this.Leg3.g += f4;
+/* 282 */     this.Leg4.g += -f4;
+/* 283 */     this.Leg5.g += f5;
+/* 284 */     this.Leg6.g += -f5;
+/* 285 */     this.Leg7.g += f6;
+/* 286 */     this.Leg8.g += -f6;
+/* 287 */     this.Leg1.h += f7;
+/* 288 */     this.Leg2.h += -f7;
+/* 289 */     this.Leg3.h += f8;
+/* 290 */     this.Leg4.h += -f8;
+/* 291 */     this.Leg5.h += f9;
+/* 292 */     this.Leg6.h += -f9;
+/* 293 */     this.Leg7.h += f10;
+/* 294 */     this.Leg8.h += -f10;
+/*     */   }
+/*     */ }
+
+
+/* Location:              /home/luigi/Documents/JAR.jar!/SCPCraft/models/SCPModel217Spider.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       1.1.3
+ */
