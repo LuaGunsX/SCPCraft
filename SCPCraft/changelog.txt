@@ -1,0 +1,39 @@
+-Added 2 new Cups
+-Added SCP-002
+-Added 2 new Potion Effects
+-Added SCP-822
+-Added SCP-023
+-Revamped SCP-000-J
+-Added SCP-682 (Or did we?)
+-Added the Pocket Dimension for SCP-106 :D
+-FINALLY made SCP-173 faster!
+-SCP-173's model is now smaller.
+-Fixed SCP-073 from not appearing.
+-Made a custom panorama background.
+-Added more quotes to SCP-079.
+-SCP-079 took over the creative menu!
+-Added SCP-009
+-Added 1 new Achievement.
+-Revamped SCP-027 The Vermin God.
+-Keycard slots now work with Sliding Doors.
+-Fixed SCP-500 from not doing its job
+-Fixed SCP-420-J from not doing its job
+-Revamped the Smoke block
+-Improved SCP-280's AI
+-Made Class-Ds more interactive with SCPs.
+-Redone and improved SCP-096
+-Added normal toilet
+-Added Alarm block
+-SCP-087 now destroys any light source
+-SCP-409 can now crystalize MOST mobs! With cool overlays!
+-Installation made easier!
+-A lot of clean-ups
+-Some minor bugfixes
+-Fixed up some stuff involving SCP-914.
+-Fixed SCP-173 doing damage when just touching.
+-Fixed SCP-076-01's spawn rate of Able.
+-Added a "beating" animation for SCP-058
+-Improved Cain and Able.
+-Pipes now connect to toilets.
+-Revamped SCP-080.
+-Added chambers for each Item SCP.

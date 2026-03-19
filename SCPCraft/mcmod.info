@@ -1,0 +1,24 @@
+[
+{
+  "modid": "SCP",
+  "name": "SCPCraft",
+  "description": "This is a mod that adds different monsters and objects based off the SCP-Foundation. The content of this mod is licensed under a Creative Commons Attribution-ShareAlike 3.0 License which can be read here: http://creativecommons.org/licenses/by-sa/3.0/legalcode. The atuhors of the SCPs can be found here: http://pastebin.com/TFVHtwi1",
+  "version": "v1.2",
+  "mcversion": "1.4.5",
+  "logoFile": "/SCPCraft/textures/logo.png",
+  "url": "http://www.minecraftforum.net/topic/1347510-secure-craft-protect-v111-142-forge-ssp-lan/",
+  "updateUrl": "http://www.minecraftforum.net/topic/1347510-secure-craft-protect-v111-142-forge-ssp-lan/",
+  "authors": ["Phuck_Yu_Too", "TheDarkKnight"]
+},
+{
+  "modid": "mod_Others",
+  "name": "SCPCraft Extension",
+  "description": "This is an extension os the SCPCraft mod used for keybounds, entity renders and other stuff. The content of this mod is licensed under a Creative Commons Attribution-ShareAlike 3.0 License which can be read here: http://creativecommons.org/licenses/by-sa/3.0/legalcode. The atuhors of the SCPs can be found here: http://pastebin.com/TFVHtwi1",
+  "version": "v1.2",
+  "mcversion": "1.4.5",
+  "logoFile": "/SCPCraft/textures/logo.png",
+  "url": "http://www.minecraftforum.net/topic/1347510-secure-craft-protect-v111-142-forge-ssp-lan/",
+  "updateUrl": "http://www.minecraftforum.net/topic/1347510-secure-craft-protect-v111-142-forge-ssp-lan/",
+  "authors": ["Phuck_Yu_Too", "TheDarkKnight"]
+}
+]
